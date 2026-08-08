@@ -22,6 +22,14 @@
     </style>
 </head>
 <body>
+    <script>
+        window.onload = function() {
+            if (!sessionStorage.getItem('hasVisited')) {
+                alert("此网站可能包含色情、暴力内容，请务必谨慎观看！");
+                sessionStorage.setItem('hasVisited', 'true');
+            }
+        };
+    </script>
     <h1>Spar1a's space</h1>
     <p>文章</p>
     <ul>
