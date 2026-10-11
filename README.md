@@ -1,2 +1,0 @@
-# Sparlala.github.io
-Website
